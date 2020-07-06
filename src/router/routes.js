@@ -14,5 +14,9 @@ export default [
       meta:{
         title:'测试'
       }
+    },
+    {
+      path:'*',
+      redirect:'/',
     }
   ]
